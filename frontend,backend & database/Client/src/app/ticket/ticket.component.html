@@ -1,0 +1,68 @@
+<div class="ticket-container">
+  <h2>Tickets</h2>
+
+  <form #ticketForm="ngForm" (ngSubmit)="saveTicket()">
+    <mat-form-field appearance="outline">
+      <input
+        matInput
+        type="text"
+        name="name"
+        [(ngModel)]="currentTicket.name"
+        placeholder="Ticketpool Name"
+        required
+      />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <input
+        matInput
+        type="text"
+        name="description"
+        [(ngModel)]="currentTicket.count"
+        placeholder="Ticketpool Count"
+        required>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-select name="status" [(ngModel)]="currentTicket.status" placeholder="Select Status" required>
+        <mat-option *ngFor="let status of ticketStatus" [value]="status">{{ status.name }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-select name="vendor" [(ngModel)]="currentTicket.vendor" placeholder="Select Vendor" required>
+        <mat-option *ngFor="let vendor of vendors" [value]="vendor">{{ vendor.name }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <button style="margin-top: 8px" mat-raised-button type="submit">
+      {{ currentTicket.id ? 'Update' : 'Create' }}
+    </button>
+  </form>
+
+  <table class="ticket-table">
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Count</th>
+      <th>Vendor</th>
+      <th>Status</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let ticket of tickets; index as i">
+      <td>{{ i + 1 }}</td>
+      <td>{{ ticket.name }}</td>
+      <td>{{ ticket.count }}</td>
+      <td>{{ ticket.vendor.name }}</td>
+      <td>{{ ticket.status.name }}</td>
+      <td>
+        <button mat-raised-button style="background-color: khaki" (click)="editTicket(ticket)">Edit</button>
+        <button mat-raised-button style="background-color: red" (click)="deleteTicket(ticket.id)">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

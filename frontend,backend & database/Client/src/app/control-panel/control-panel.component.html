@@ -1,0 +1,91 @@
+<div class="configuration-container">
+  <h2>Manage Configurations</h2>
+
+  <!-- Configuration Form -->
+  <form #configForm="ngForm" (ngSubmit)="saveConfiguration()">
+    <!-- Select Vendor -->
+    <mat-form-field appearance="outline">
+      <mat-select [(ngModel)]="currentConfiguration.vendor" name="vendor" placeholder="Select Vendor" required>
+        <mat-option *ngFor="let vendor of vendors" [value]="vendor">{{ vendor.name }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <!-- Tickets for Event -->
+    <mat-form-field appearance="outline">
+      <input
+        matInput
+        type="number"
+        placeholder="Tickets for Event"
+        [(ngModel)]="currentConfiguration.ticfrocustomer"
+        name="ticforevent"
+        required
+      />
+    </mat-form-field>
+
+    <!-- Tickets from Vendor -->
+    <mat-form-field appearance="outline">
+      <input
+        matInput
+        type="number"
+        placeholder="Tickets from Vendor"
+        [(ngModel)]="currentConfiguration.ticfromvendor"
+        name="ticfromvendor"
+        required
+      />
+    </mat-form-field>
+
+    <!-- Remaining Tickets -->
+    <mat-form-field appearance="outline">
+      <input
+        matInput
+        type="number"
+        placeholder="Remaining Tickets"
+        [(ngModel)]="currentConfiguration.remainingtic"
+        name="remainingtic"
+        required
+      />
+    </mat-form-field>
+
+    <button mat-raised-button style="margin-top: 8px" type="submit">
+      {{ currentConfiguration.id ? 'Update' : 'Save' }} Configuration
+    </button>
+  </form>
+
+  <!-- Configurations Table -->
+  <table class="configuration-table">
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>Vendor Name</th>
+      <th>Tickets for Customer</th>
+      <th>Tickets from Vendor</th>
+      <th>Remaining Tickets</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let config of configurations; index as i">
+      <td>{{ i + 1 }}</td>
+      <td>{{ config.vendor.name }}</td>
+      <td>{{ config.ticfrocustomer }}</td>
+      <td>{{ config.ticfromvendor }}</td>
+      <td>{{ config.remainingtic }}</td>
+      <td>
+        <button mat-raised-button style="background-color: khaki" (click)="editConfiguration(config)">Edit</button>
+        <button mat-raised-button style="background-color: red" (click)="deleteConfiguration(config.id)">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+ <!--Control the System-->
+  <div class="systemctl">
+    <h2>System Control</h2>
+
+    <div class="ctl-btn">
+      <button mat-raised-button style="background-color: #5bad5b" (click)="startSystem()">Start System</button>
+      <button mat-raised-button style="background-color: red" (click)="stopSystem()">Stop System</button>
+    </div>
+  </div>
+
+</div>

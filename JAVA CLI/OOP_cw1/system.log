@@ -1,0 +1,458 @@
+2024-12-08T14:07:19.977415100 - Command-line interface started.
+2024-12-08T14:07:34.006395 - System Configuration started.
+2024-12-08T14:07:57.660216 - Configuration has ended.
+2024-12-08T14:38:35.491733400 - Command-line interface started.
+2024-12-08T14:38:51.667326800 - System Configuration started.
+2024-12-08T14:39:31.672111200 - Configuration has ended.
+2024-12-08T14:39:39.769816500 - Vendor pool-1-thread-1 could not add tickets. Capacity reached.
+2024-12-08T14:39:39.775820300 - Customer pool-1-thread-7 purchased a ticket. Remaining tickets: 9
+2024-12-08T14:39:39.775820300 - Customer pool-1-thread-6 purchased a ticket. Remaining tickets: 8
+2024-12-08T14:39:39.776820500 - Customer pool-1-thread-5 purchased a ticket. Remaining tickets: 7
+2024-12-08T14:39:39.778215300 - Customer pool-1-thread-4 purchased a ticket. Remaining tickets: 6
+2024-12-08T14:39:39.779548700 - Vendor pool-1-thread-3 added 5 tickets.
+2024-12-08T14:39:39.780053300 - Vendor pool-1-thread-2 added 5 tickets.
+2024-12-08T14:39:40.110114900 - Customer pool-1-thread-7 purchased a ticket. Remaining tickets: 5
+2024-12-08T14:39:40.111012 - Customer pool-1-thread-6 purchased a ticket. Remaining tickets: 4
+2024-12-08T14:39:40.112989400 - Customer pool-1-thread-5 purchased a ticket. Remaining tickets: 3
+2024-12-08T14:39:40.113983200 - Customer pool-1-thread-4 purchased a ticket. Remaining tickets: 2
+2024-12-08T14:39:40.444484700 - Customer pool-1-thread-7 purchased a ticket. Remaining tickets: 1
+2024-12-08T14:39:40.445359400 - Customer pool-1-thread-6 purchased a ticket. Remaining tickets: 0
+2024-12-08T14:39:40.448442500 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:40.450443100 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:40.774493100 - Vendor pool-1-thread-1 added 5 tickets.
+2024-12-08T14:39:40.780490100 - Customer pool-1-thread-7 purchased a ticket. Remaining tickets: 4
+2024-12-08T14:39:40.780490100 - Vendor pool-1-thread-3 added 5 tickets.
+2024-12-08T14:39:40.781999600 - Vendor pool-1-thread-2 added 5 tickets.
+2024-12-08T14:39:40.782876400 - Customer pool-1-thread-6 purchased a ticket. Remaining tickets: 3
+2024-12-08T14:39:40.784193700 - Customer pool-1-thread-5 purchased a ticket. Remaining tickets: 2
+2024-12-08T14:39:40.785191600 - Customer pool-1-thread-4 purchased a ticket. Remaining tickets: 1
+2024-12-08T14:39:41.116034200 - Customer pool-1-thread-7 purchased a ticket. Remaining tickets: 0
+2024-12-08T14:39:41.116940 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:41.117925900 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:41.118702400 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:41.451250600 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:41.453147100 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:41.455114100 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:41.456111200 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:41.776765900 - Vendor pool-1-thread-1 added 5 tickets.
+2024-12-08T14:39:41.782722800 - Vendor pool-1-thread-3 finished adding tickets.
+2024-12-08T14:39:41.784650300 - Vendor pool-1-thread-2 finished adding tickets.
+2024-12-08T14:39:41.786047 - Customer pool-1-thread-7 purchased a ticket. Remaining tickets: 4
+2024-12-08T14:39:41.787342500 - Customer pool-1-thread-6 purchased a ticket. Remaining tickets: 3
+2024-12-08T14:39:41.789328400 - Customer pool-1-thread-5 purchased a ticket. Remaining tickets: 2
+2024-12-08T14:39:41.791147300 - Customer pool-1-thread-4 purchased a ticket. Remaining tickets: 1
+2024-12-08T14:39:42.120607200 - Customer pool-1-thread-7 purchased a ticket. Remaining tickets: 0
+2024-12-08T14:39:42.121515700 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:42.123516200 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:42.125527100 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:42.455768 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:42.457647500 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:42.458646600 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:42.459647300 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:42.778889700 - Vendor pool-1-thread-1 finished adding tickets.
+2024-12-08T14:39:42.790898200 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:42.792776800 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:42.793775900 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:42.794819900 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:43.126041 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:43.126950800 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:43.128928800 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:43.130927100 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:43.461210300 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:43.462103600 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:43.465063900 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:43.465985200 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:43.796362900 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:43.797273 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:43.800511500 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:43.801511700 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:44.131510 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:44.133395400 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:44.135396200 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:44.136400 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:44.466767200 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:44.468647200 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:44.470701 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:44.472285200 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:44.801919700 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:44.802785400 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:44.805725800 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:44.807638700 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:45.136568600 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:45.137547500 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:45.140210100 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:45.143209600 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:45.470674900 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:45.471725800 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:45.475922600 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:45.477228100 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:45.805056100 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:45.806917400 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:45.810434500 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:45.811425900 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:46.141391 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:46.142321500 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:46.145361200 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:46.147281900 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:46.476001500 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:46.476998900 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:46.479512200 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:46.483008800 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:46.810139400 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:46.811144800 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:46.816004100 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:46.818023500 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:47.144290500 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:47.145297300 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:47.152238900 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:47.153374200 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:47.478437 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:47.481262400 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:47.487262400 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:47.487933100 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:47.812875100 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:47.815961500 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:47.822453800 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:47.823348800 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:48.147856500 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:48.150846 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:48.156878900 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:48.157808800 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:48.481902700 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:48.485020500 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:48.491316200 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:48.492292500 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:48.817301800 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:48.820245100 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:48.826442800 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:48.827447 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:49.152781300 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:49.154673300 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:49.161710 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:49.162593900 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:49.487053900 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:49.489567 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:49.496654600 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:49.497660500 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:49.820781 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:49.825796100 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:49.830307400 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:49.831304 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:50.155275900 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:50.160192900 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:50.164708100 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:50.165688 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:50.489330400 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:50.495543900 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:50.499264400 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:50.501185700 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:50.823467600 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:50.830165400 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:50.834071500 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:50.835066700 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:51.157610800 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:51.164735600 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:51.168621300 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:51.169615800 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:51.491936 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:51.499565100 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:51.503483800 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:51.504478800 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:51.826077400 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:51.833692800 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:51.839914 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:51.840927 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:52.160213400 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:52.167932100 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:52.173958400 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:52.175901100 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:52.494577 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:52.501977900 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:52.508856400 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:52.510727600 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:52.828745500 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:52.836329500 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:52.843962800 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:52.845963500 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:53.165823300 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:53.171938200 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:53.177993600 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:53.181089300 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:53.501093900 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:53.507101100 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:53.512975300 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:53.514981 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:53.835378100 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:53.841499200 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:53.847488200 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:53.849439900 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:54.169511200 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:54.176516100 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:54.182541600 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:54.183524600 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:54.503658900 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:54.510780100 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:54.516982400 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:54.518872800 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:54.837782 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:54.844795500 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:54.851290400 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:54.854162100 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:55.172119300 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:55.178932300 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:55.186048700 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:55.188700400 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:55.506308100 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:55.514232600 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:55.521926 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:55.522779800 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:55.840558800 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:55.848259100 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:55.856263200 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:55.857264100 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:56.175208100 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:56.182399 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:56.191206300 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:56.192131600 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:56.509210600 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:56.516577200 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:56.527096300 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:56.527970100 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:56.844225800 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:56.851160900 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:56.861101300 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:56.862126700 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:57.178601700 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:57.185771500 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:57.195275800 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:57.197312100 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:57.513648600 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:57.520144700 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:57.530479700 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:57.531362100 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:57.848088800 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:57.854936700 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:57.864468100 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:57.865475500 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:58.182320100 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:58.189751500 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:58.199729900 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:58.200613 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:58.516665600 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:58.523913300 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:58.534306600 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:58.535227900 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:58.851156500 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:58.858158600 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:58.869232 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:58.870158300 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:59.185380100 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:59.194604200 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:59.204620 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:59.205616300 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:59.519534100 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:59.529748500 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:59.538878100 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:59.540771400 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:39:59.854795900 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:39:59.864897200 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:39:59.874775900 - Customer pool-1-thread-6 could not purchase a ticket. None available.
+2024-12-08T14:39:59.875777100 - Customer pool-1-thread-4 could not purchase a ticket. None available.
+2024-12-08T14:40:00.189896100 - Customer pool-1-thread-5 could not purchase a ticket. None available.
+2024-12-08T14:40:00.199609300 - Customer pool-1-thread-7 could not purchase a ticket. None available.
+2024-12-08T14:40:00.209024900 - Customer pool-1-thread-5 interrupted.
+2024-12-08T14:40:00.209400800 - Customer pool-1-thread-4 interrupted.
+2024-12-08T14:40:00.210089100 - Customer pool-1-thread-7 interrupted.
+2024-12-08T14:40:00.210658 - Customer pool-1-thread-7 finished purchasing tickets.
+2024-12-08T14:40:00.210728100 - Customer pool-1-thread-6 interrupted.
+2024-12-08T14:40:00.210728100 - Customer pool-1-thread-6 finished purchasing tickets.
+2024-12-08T14:40:00.210728100 - Customer pool-1-thread-4 finished purchasing tickets.
+2024-12-08T14:40:00.212183 - Customer pool-1-thread-5 finished purchasing tickets.
+2024-12-08T14:52:27.208447100 - Command-line interface started.
+2024-12-08T14:52:31.279196500 - System Configuration started.
+2024-12-08T14:52:54.430858700 - Configuration has ended.
+2024-12-08T14:52:57.058972200 - Vendor 1 started.
+2024-12-08T14:52:57.065114200 - Customer 2 started.
+2024-12-08T14:52:57.065434200 - Vendor 2 started.
+2024-12-08T14:52:57.066287100 - Customer 2 purchased a ticket.
+2024-12-08T14:52:57.066700600 - Vendor 1 finished adding tickets.
+2024-12-08T14:52:57.066700600 - Customer 1 started.
+2024-12-08T14:52:57.067984600 - Customer 1 purchased a ticket.
+2024-12-08T14:52:57.068927400 - Vendor 2: Ticket added; Ticket ID: Vendor 2-ID409171410794700
+2024-12-08T14:52:59.081670600 - Customer 1 purchased a ticket.
+2024-12-08T14:52:59.083116200 - Customer 2 purchased a ticket.
+2024-12-08T14:53:00.077942700 - Vendor 2: Ticket added; Ticket ID: Vendor 2-ID409174422467700
+2024-12-08T14:53:01.084802800 - Customer 1 purchased a ticket.
+2024-12-08T14:53:01.092808200 - Customer 2 purchased a ticket.
+2024-12-08T14:53:03.087844800 - Customer 1 purchased a ticket.
+2024-12-08T14:53:03.087844800 - Vendor 2: Ticket added; Ticket ID: Vendor 2-ID409177432506500
+2024-12-08T14:53:03.104281800 - Customer 2 purchased a ticket.
+2024-12-08T14:53:05.102322200 - Customer 1 purchased a ticket.
+2024-12-08T14:53:05.119426600 - Customer 2 purchased a ticket.
+2024-12-08T14:53:06.097605500 - Vendor 2: Ticket added; Ticket ID: Vendor 2-ID409180441955600
+2024-12-08T14:53:07.052753600 - Vendor 2 interrupted.
+2024-12-08T14:53:07.060556700 - Customer 2 interrupted.
+2024-12-08T14:53:07.061647300 - Customer 1 interrupted.
+2024-12-08T14:53:07.062123200 - Customer 1 finished purchasing tickets.
+2024-12-08T14:53:07.063110600 - Customer 2 finished purchasing tickets.
+2024-12-08T14:53:07.063609700 - Vendor 2 finished adding tickets.
+2024-12-08T21:07:49.113283200 - Command-line interface started.
+2024-12-08T21:08:09.525141100 - System Configuration started.
+2024-12-08T21:08:22.832757 - Configuration has ended.
+2024-12-08T21:08:25.580527500 - Vendor 2 started.
+2024-12-08T21:08:25.581527500 - Vendor 2 finished adding tickets.
+2024-12-08T21:08:25.583526300 - Customer 5 started.
+2024-12-08T21:08:25.584524 - Customer 1 started.
+2024-12-08T21:08:25.584524 - Vendor 1 started.
+2024-12-08T21:08:25.585524900 - Customer 1 purchased a ticket.
+2024-12-08T21:08:25.585524900 - Customer 5 purchased a ticket.
+2024-12-08T21:08:25.586937900 - Customer 4 started.
+2024-12-08T21:08:25.586937900 - Customer 3 started.
+2024-12-08T21:08:25.586937900 - Customer 2 started.
+2024-12-08T21:08:25.588430900 - Customer 2 purchased a ticket.
+2024-12-08T21:08:25.588430900 - Customer 3 purchased a ticket.
+2024-12-08T21:08:25.588430900 - Customer 4 purchased a ticket.
+2024-12-08T21:08:25.592441900 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75817422637500
+2024-12-08T21:08:26.595707900 - Customer 4 purchased a ticket.
+2024-12-08T21:08:26.596706 - Customer 2 purchased a ticket.
+2024-12-08T21:08:26.596706 - Customer 3 purchased a ticket.
+2024-12-08T21:08:26.597706200 - Customer 1 purchased a ticket.
+2024-12-08T21:08:26.597706200 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75818432441100
+2024-12-08T21:08:26.598707 - Customer 5 purchased a ticket.
+2024-12-08T21:08:27.597015900 - Customer 4 purchased a ticket.
+2024-12-08T21:08:27.597907300 - Customer 3 purchased a ticket.
+2024-12-08T21:08:27.598926600 - Customer 2 finished purchasing tickets.
+2024-12-08T21:08:27.600912300 - Customer 1 finished purchasing tickets.
+2024-12-08T21:08:27.600912300 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75819437609700
+2024-12-08T21:08:27.600912300 - Customer 5 finished purchasing tickets.
+2024-12-08T21:08:28.600086200 - Customer 3 purchased a ticket.
+2024-12-08T21:08:28.601088700 - Customer 4 finished purchasing tickets.
+2024-12-08T21:08:28.602536 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75820439186700
+2024-12-08T21:08:29.601432100 - Customer 3 purchased a ticket.
+2024-12-08T21:08:29.616819800 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75821453922800
+2024-12-08T21:08:30.614488900 - Customer 3 purchased a ticket.
+2024-12-08T21:08:30.630488700 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75822467380000
+2024-12-08T21:08:31.618342300 - Customer 3 purchased a ticket.
+2024-12-08T21:08:31.634373300 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75823471194300
+2024-12-08T21:08:32.629252800 - Customer 3 purchased a ticket.
+2024-12-08T21:08:32.644955700 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75824481984000
+2024-12-08T21:08:33.644214600 - Customer 3 purchased a ticket.
+2024-12-08T21:08:33.660216100 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75825497111100
+2024-12-08T21:08:34.645909400 - Customer 3 purchased a ticket.
+2024-12-08T21:08:34.662501200 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75826499200100
+2024-12-08T21:08:35.647601800 - Customer 3 purchased a ticket.
+2024-12-08T21:08:35.677914600 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75827514806100
+2024-12-08T21:08:36.660870800 - Customer 3 purchased a ticket.
+2024-12-08T21:08:36.692502600 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75828529438200
+2024-12-08T21:08:37.676474600 - Customer 3 purchased a ticket.
+2024-12-08T21:08:37.707134300 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75829543997400
+2024-12-08T21:08:38.685541400 - Customer 3 purchased a ticket.
+2024-12-08T21:08:38.716108600 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75830553172700
+2024-12-08T21:08:39.689797100 - Customer 3 purchased a ticket.
+2024-12-08T21:08:39.717786 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75831554443100
+2024-12-08T21:08:40.690967800 - Customer 3 purchased a ticket.
+2024-12-08T21:08:40.722896 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75832559708300
+2024-12-08T21:08:41.697473900 - Customer 3 purchased a ticket.
+2024-12-08T21:08:41.728475200 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75833565496600
+2024-12-08T21:08:42.700020500 - Customer 3 purchased a ticket.
+2024-12-08T21:08:42.730465 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75834567441400
+2024-12-08T21:08:43.703046800 - Customer 3 purchased a ticket.
+2024-12-08T21:08:43.734373100 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75835571255700
+2024-12-08T21:08:44.715993400 - Customer 3 purchased a ticket.
+2024-12-08T21:08:44.747686600 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75836584694400
+2024-12-08T21:08:45.723136100 - Customer 3 purchased a ticket.
+2024-12-08T21:08:45.754726600 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75837591656400
+2024-12-08T21:08:46.738372100 - Customer 3 purchased a ticket.
+2024-12-08T21:08:46.769766400 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75838606733800
+2024-12-08T21:08:47.747446700 - Customer 3 purchased a ticket.
+2024-12-08T21:08:47.778349800 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75839615272100
+2024-12-08T21:08:48.763358500 - Customer 3 purchased a ticket.
+2024-12-08T21:08:48.794914900 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75840631902700
+2024-12-08T21:08:49.765574200 - Customer 3 purchased a ticket.
+2024-12-08T21:08:49.799604300 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75841636309500
+2024-12-08T21:08:50.771501900 - Customer 3 purchased a ticket.
+2024-12-08T21:08:50.802053400 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75842638865500
+2024-12-08T21:08:51.774628200 - Customer 3 purchased a ticket.
+2024-12-08T21:08:51.806705400 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75843643493800
+2024-12-08T21:08:52.780419700 - Customer 3 purchased a ticket.
+2024-12-08T21:08:52.809954900 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75844646860300
+2024-12-08T21:08:53.791309900 - Customer 3 purchased a ticket.
+2024-12-08T21:08:53.822788300 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75845659626100
+2024-12-08T21:08:54.806758600 - Customer 3 purchased a ticket.
+2024-12-08T21:08:54.838652 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75846675683100
+2024-12-08T21:08:55.820491600 - Customer 3 purchased a ticket.
+2024-12-08T21:08:55.851182200 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75847688334700
+2024-12-08T21:08:56.831928100 - Customer 3 purchased a ticket.
+2024-12-08T21:08:56.862977600 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75848699976900
+2024-12-08T21:08:57.834283600 - Customer 3 purchased a ticket.
+2024-12-08T21:08:57.869616600 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75849705158800
+2024-12-08T21:08:58.836108300 - Customer 3 purchased a ticket.
+2024-12-08T21:08:58.882849500 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75850719615200
+2024-12-08T21:08:59.841846500 - Customer 3 purchased a ticket.
+2024-12-08T21:08:59.887925900 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75851724989300
+2024-12-08T21:09:00.850945700 - Customer 3 purchased a ticket.
+2024-12-08T21:09:00.897756600 - Vendor 1: Ticket added; Ticket ID: Vendor 1-ID75852734740800
+2024-12-08T21:13:30.008622400 - Command-line interface started.
+2024-12-08T21:13:33.325511900 - System Configuration started.
+2024-12-08T21:13:45.513417 - Configuration has ended.
+2024-12-08T21:13:47.286659600 - Vendor 1 started.
+2024-12-08T21:13:47.287663300 - Vendor 2 started.
+2024-12-08T21:13:47.287663300 - Customer 1 started.
+2024-12-08T21:13:47.288664300 - Customer 4 started.
+2024-12-08T21:13:47.289662600 - Customer 3 started.
+2024-12-08T21:13:47.289662600 - Customer 2 started.
+2024-12-08T21:13:47.290672500 - Vendor 2 finished adding tickets.
+2024-12-08T21:13:47.290672500 - Vendor 1 finished adding tickets.
+2024-12-08T21:13:47.291660800 - Customer 2 purchased a ticket.
+2024-12-08T21:13:47.291660800 - Customer 3 purchased a ticket.
+2024-12-08T21:13:47.291660800 - Customer 4 purchased a ticket.
+2024-12-08T21:13:47.292660300 - Customer 1 purchased a ticket.
+2024-12-08T21:13:47.292660300 - Customer 5 started.
+2024-12-08T21:13:47.292660300 - Customer 5 purchased a ticket.
+2024-12-08T21:13:48.292204800 - Customer 2 purchased a ticket.
+2024-12-08T21:13:48.293202300 - Customer 4 purchased a ticket.
+2024-12-08T21:13:48.293202300 - Customer 1 purchased a ticket.
+2024-12-08T21:13:48.294202900 - Customer 5 purchased a ticket.
+2024-12-08T21:13:48.294202900 - Customer 3 purchased a ticket.
+2024-12-08T21:13:49.293658400 - Customer 2 finished purchasing tickets.
+2024-12-08T21:13:49.294691600 - Customer 1 finished purchasing tickets.
+2024-12-08T21:13:49.296147100 - Customer 4 finished purchasing tickets.
+2024-12-08T21:13:49.296147100 - Customer 5 finished purchasing tickets.
+2024-12-08T21:13:49.297173 - Customer 3 finished purchasing tickets.
+2024-12-08T21:25:22.752405900 - Command-line interface started.
+2024-12-08T21:25:45.354863600 - System Configuration started.
+2024-12-08T21:27:00.848994200 - Configuration has ended.
+2024-12-08T21:27:16.494613900 - Vendor 1 started.
+2024-12-08T21:27:16.495609700 - Vendor 2 started.
+2024-12-08T21:27:16.496610300 - Vendor 1 finished adding tickets.
+2024-12-08T21:27:16.496610300 - Vendor 3 started.
+2024-12-08T21:27:16.496610300 - Vendor 5 started.
+2024-12-08T21:27:16.496610300 - Vendor 5 finished adding tickets.
+2024-12-08T21:27:16.497617400 - Vendor 4 started.
+2024-12-08T21:27:16.497617400 - Vendor 4 finished adding tickets.
+2024-12-08T21:27:16.497617400 - Vendor 3 finished adding tickets.
+2024-12-08T21:27:16.498612700 - Customer 1 started.
+2024-12-08T21:27:16.498612700 - Customer 4 started.
+2024-12-08T21:27:16.498612700 - Customer 1 purchased a ticket.
+2024-12-08T21:27:16.498612700 - Customer 2 started.
+2024-12-08T21:27:16.499611200 - Customer 3 started.
+2024-12-08T21:27:16.499611200 - Customer 3 purchased a ticket.
+2024-12-08T21:27:16.499611200 - Vendor 2 finished adding tickets.
+2024-12-08T21:27:16.499611200 - Customer 2 purchased a ticket.
+2024-12-08T21:27:16.500653100 - Customer 4 purchased a ticket.
+2024-12-08T21:27:21.504309100 - Customer 2 purchased a ticket.
+2024-12-08T21:27:21.504717200 - Customer 4 purchased a ticket.
+2024-12-08T21:27:21.505863100 - Customer 3 purchased a ticket.
+2024-12-08T21:27:21.506790 - Customer 1 purchased a ticket.
+2024-12-08T21:27:26.505995500 - Customer 2 purchased a ticket.
+2024-12-08T21:27:26.510173200 - Customer 3 purchased a ticket.
+2024-12-08T21:27:26.510173200 - Customer 4 purchased a ticket.
+2024-12-08T21:27:26.511610100 - Customer 1 purchased a ticket.
+2024-12-08T21:27:29.499760900 - Customer 3 interrupted.
+2024-12-08T21:27:29.499760900 - Customer 4 interrupted.
+2024-12-08T21:27:29.500760700 - Customer 4 finished purchasing tickets.
+2024-12-08T21:27:29.500760700 - Customer 1 interrupted.
+2024-12-08T21:27:29.501760700 - Customer 2 interrupted.
+2024-12-08T21:27:29.501760700 - Customer 1 finished purchasing tickets.
+2024-12-08T21:27:29.501760700 - Customer 3 finished purchasing tickets.
+2024-12-08T21:27:29.502761200 - Customer 2 finished purchasing tickets.

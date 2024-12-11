@@ -1,0 +1,45 @@
+<div class="ticket-container">
+  <h2>Manage Purchased Tickets</h2>
+
+  <!-- Ticketpool Form -->
+  <form #ticketForm="ngForm" (ngSubmit)="saveTicket()">
+    <mat-form-field appearance="outline">
+      <mat-select [(ngModel)]="currentTicket.ticketpool.id" name="ticket" placeholder="Select Ticketpool" required>
+        <mat-option *ngFor="let ticket of tickets" [value]="ticket.id">{{ ticket.name }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-select [(ngModel)]="currentTicket.customer.id" name="customer" placeholder="Select Customer" required>
+        <mat-option *ngFor="let customer of customers" [value]="customer.id">{{ customer.name }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <button mat-raised-button style="margin-top: 8px" type="submit">{{ currentTicket.id ? 'Update' : 'Save' }} Ticketpool</button>
+  </form>
+
+  <!-- Tickets Table -->
+  <table class="ticket-table">
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>Ticket Name</th>
+      <th>Customer</th>
+      <th>Purchase Date</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let ticket of purchaseTickets; index as i">
+      <td>{{ i + 1 }}</td>
+      <td>{{ ticket.ticketpool.name }}</td>
+      <td>{{ ticket.customer.name }}</td>
+      <td>{{ ticket.purchasedate }}</td>
+      <td>
+        <button mat-raised-button style="background-color: khaki" (click)="editTicket(ticket)">Edit</button>
+        <button mat-raised-button style="background-color: red" (click)="deleteTicket(ticket.id)">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

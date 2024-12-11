@@ -1,0 +1,52 @@
+<div class="customer-container">
+  <h2>Customers</h2>
+
+  <form #customerForm="ngForm" (ngSubmit)="saveCustomer()">
+    <mat-form-field appearance="outline">
+      <input
+        matInput
+        type="text"
+        name="name"
+        [(ngModel)]="currentCustomer.name"
+        placeholder="Name"
+        required
+      />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <input
+        matInput
+        type="email"
+        name="email"
+        [(ngModel)]="currentCustomer.email"
+        placeholder="Email"
+      >
+    </mat-form-field>
+
+    <button style="margin-top: 8px" mat-raised-button type="submit">
+      {{ currentCustomer.id ? 'Update' : 'Create' }}
+    </button>
+  </form>
+
+  <table class="customer-table">
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let customer of customers; index as i">
+      <td>{{ i + 1 }}</td>
+      <td>{{ customer.name }}</td>
+      <td>{{ customer.email }}</td>
+      <td>
+        <button mat-raised-button style="background-color: khaki" (click)="editCustomer(customer)">Edit</button>
+        <button mat-raised-button style="background-color: red" (click)="deleteCustomer(customer.id)">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,35 @@
+mat-toolbar {
+  background-color: #0067ff;
+  color: #ffffff;
+}
+
+mat-toolbar-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+mat-toolbar h2 {
+  margin: 0;
+  font-size: 24px;
+  text-align: left;
+}
+
+.button-container {
+  display: flex;
+  gap: 16px;
+}
+
+button {
+  border-radius: 10px;
+  margin: 3px;
+  background-color: #fdbe01 !important;
+  color: #000000;
+}
+
+mat-card {
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+}

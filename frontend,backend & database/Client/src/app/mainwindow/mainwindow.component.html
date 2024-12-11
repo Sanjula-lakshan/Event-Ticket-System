@@ -1,0 +1,17 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <h2>Real Time Ticketing System</h2>
+    <div class="button-container">
+      <button mat-raised-button routerLink="dashboard">Dashboard</button>
+      <button mat-raised-button routerLink="control-panel">Control Panel</button>
+      <button mat-raised-button routerLink="vendor">Vendor</button>
+      <button mat-raised-button routerLink="customer">Customer</button>
+      <button mat-raised-button routerLink="ticket">Ticketpool</button>
+      <button mat-raised-button routerLink="purchase-ticket">Purchase Ticketpool</button>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-card>
+  <router-outlet></router-outlet>
+</mat-card>

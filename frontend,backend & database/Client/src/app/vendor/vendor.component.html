@@ -1,0 +1,53 @@
+<div class="vendor-container">
+  <h2>Vendors</h2>
+
+  <form #vendorForm="ngForm" (ngSubmit)="saveVendor()">
+    <mat-form-field appearance="outline">
+      <input
+        matInput
+        type="text"
+        name="name"
+        [(ngModel)]="currentVendor.name"
+        placeholder="Vendor Name"
+        required
+      />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <input
+        matInput
+        type="email"
+        name="email"
+        [(ngModel)]="currentVendor.email"
+        placeholder="Vendor Email"
+        required
+      />
+    </mat-form-field>
+
+    <button style="margin-top: 8px" mat-raised-button type="submit">
+      {{ currentVendor.id ? 'Update' : 'Create' }}
+    </button>
+  </form>
+
+  <table class="vendor-table">
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let vendor of vendors; index as i">
+      <td>{{ i + 1 }}</td>
+      <td>{{ vendor.name }}</td>
+      <td>{{ vendor.email }}</td>
+      <td>
+        <button mat-raised-button style="background-color: khaki" (click)="editVendor(vendor)">Edit</button>
+        <button mat-raised-button style="background-color: red" (click)="deleteVendor(vendor.id)">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

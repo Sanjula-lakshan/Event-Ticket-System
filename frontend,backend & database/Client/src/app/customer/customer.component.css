@@ -1,0 +1,55 @@
+.customer-container form {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+h2{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+mat-form-field {
+  display: inline-flex;
+  width: 20%;
+}
+
+button {
+  align-self: flex-start;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.customer-table th,
+.customer-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.customer-table th {
+  background-color: #f4f4f4;
+}
+
+.customer-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+button {
+  margin-right: 8px;
+  padding: 4px 8px;
+  border: none;
+  background-color: #007bff;
+  color: #000000 !important;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: rgba(0, 86, 179, 0.42);
+}
